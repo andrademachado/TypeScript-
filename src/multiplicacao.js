@@ -1,8 +1,5 @@
 "use strict";
-function realParaDolar(real, cotacaoDolar) {
-    var real = 10;
-    var cotacaoDolar = 5;
-    let somaTotal = realParaDolar(real, cotacaoDolar);
-    return real * cotacaoDolar;
+function converterMoeda(valor, cotacaoAtual) {
+    return valor * cotacaoAtual;
 }
-console.log(realParaDolar);
+console.log(converterMoeda(10, 5));

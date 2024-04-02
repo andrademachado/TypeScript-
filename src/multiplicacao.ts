@@ -1,15 +1,7 @@
-function realParaDolar(real:number ,cotacaoDolar:number){
-    var real: number = 10
-
-    var cotacaoDolar: number = 5
-
-    let somaTotal :number = realParaDolar(real ,cotacaoDolar)
-    return real*cotacaoDolar;
-
+function converterMoeda(valor:number, cotacaoAtual:number):number{
+    return valor*cotacaoAtual;
 }
-
-
-console.log(realParaDolar);
+console.log(converterMoeda(10, 5));
 
 
 
